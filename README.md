@@ -1,7 +1,7 @@
-# Resource Group Module
+# Kubernetes Cluster Module
 
 ### Description
-This module is for deploying `resource group` resource in Azure using Terraform
+This module is for deploying `kubernetes cluster` resource in Azure using Terraform
 
 ### Inputs
 |Variable Name|Type|Required| Default |Description|
