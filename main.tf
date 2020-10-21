@@ -14,6 +14,7 @@ resource "azurerm_kubernetes_cluster" "aksCluster" {
     client_id = var.client_id
     client_secret = var.client_secret
   }
+  load_balancer_sku = "Standard"
 
   tags = var.tags
 }
